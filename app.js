@@ -1,7 +1,7 @@
 import express, { json } from 'express' // require -> commonJS
 import { corsMiddleware } from './middleware/cors.js'
 
-import { moviesRouter } from './routes/movies'
+import { moviesRouter } from './routes/movies.js'
 
 const app = express()
 app.use(json())
