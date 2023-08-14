@@ -2,9 +2,6 @@ import { Router } from 'express'
 
 import { validateMovie, validatePartialMovie } from '../schemas/movies.js'
 import { MovieModel } from '../models/movie.js'
-// remove soon
-import { readJSON } from '../utils.js'
-const movies = readJSON('./movies.json')
 
 export const moviesRouter = Router()
 
